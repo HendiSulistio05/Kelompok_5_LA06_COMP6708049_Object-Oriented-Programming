@@ -32,7 +32,7 @@ admin) 1 untuk user dan 2 untuk admin
 books id -\> id buku (primary key) title -\> judul buku author -\>
 penulis buku year -\> tahun terbit buku harga -\> harga buku
 
-history id -\> id akun (primary key) username -\> username akun book\_id
+history id -\> id akun (primary key) username -\> username akun book\_id 
 -\> id buku book\_title -\> judul buku harga -\> harga buku phone -\>
 nomor telepon akun payment -\> metode pembayaran date\_rent -\>
 timestamp penyewaan buku date\_return -\> timestamp pengembalian buku
@@ -41,3 +41,5 @@ status id -\> id buku (primary key) status -\> status buku (sudah
 disewakan atau belum)
 
 tmp name -\> teks untuk menyimpan variabel nama
+
+Aplikasi ini menggunakan JavaFX-19 dan versi java SE-17 
